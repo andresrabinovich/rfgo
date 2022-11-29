@@ -5,13 +5,15 @@ Authors@R: c(
             person("Andrés", "Rabinovich", , "andresrabinovich@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-9291-9078")),
             person("Ariel", "Chernomoretz", , "algo107@gmail.com", role = c("aut"), comment = c(ORCID = "0000-0003-2675-353X")))
 Description: Build gene regulatory networks from RNA-seq data using random forest and Gene Ontology ('rfgo').
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: use_gpl3_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
-URL: https://devtools.r-lib.org/, https://github.com/r-lib/devtools
+URL: https://devtools.r-lib.org/,
+    https://github.com/r-lib/devtools,
+    https://andresrabinovich.github.io/rfgo/
 BugReports: https://github.com/r-lib/devtools/issues
 Imports: 
     AnnotationDbi,
     GOSemSim
+Config/Needs/website: tidyverse/tidytemplate
